@@ -57,3 +57,4 @@ if &diff
 endif
 
 set clipboard=unnamed
+set modeline
