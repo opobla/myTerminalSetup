@@ -46,10 +46,6 @@ set tags+=.tags
 
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 
-" Macros útiles para traducir cosas de SO poner exámenes
-"call IMAP('cho','\choice{<++>.}<++>','tex')
-"call IMAP('OS','operating system','tex')
-"
 set background=dark
 
 if &diff
