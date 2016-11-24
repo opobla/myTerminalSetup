@@ -9,7 +9,6 @@ fi
 PACKAGES="
 vim-python-jedi
 vim-common
-vim-dbg
 vim-runtime
 vim-fugitive
 vim-latexsuite

@@ -23,7 +23,7 @@ then
     git config --global core.editor vim
     git config --global color.ui auto
     git config --global push.default simple
-    curl https://github.com/git/git/blob/master/contrib/completion/git-completion.bash -O
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -O
 else
     echo "GIT not present. Skiping GIT configuration"
 fi
