@@ -1,3 +1,4 @@
+execute pathogen#infect()
 " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
 filetype plugin on
 

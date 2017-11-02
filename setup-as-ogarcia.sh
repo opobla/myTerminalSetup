@@ -27,3 +27,12 @@ then
 else
     echo "GIT not present. Skiping GIT configuration"
 fi
+
+echo "Installing pathogen"
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+echo "Installing vim-fugitive"
+cd ~/.vim/bundle
+git clone https://github.com/tpope/vim-fugitive.git
+vim -u NONE -c "helptags vim-fugitive/doc" -c q
+cd -

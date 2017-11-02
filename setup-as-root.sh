@@ -10,9 +10,7 @@ PACKAGES="
 vim-python-jedi
 vim-common
 vim-runtime
-vim-fugitive
 vim-latexsuite
-vim-pathogen
 vim-scripts
 vim-syntastic
 vim-vimoutliner
